@@ -11,21 +11,21 @@ import Education from './components/Education.jsx'
 import Contact from './components/ContactSection.jsx'
 
 function App() {
-
   return (
-    <div className="flex flex-col bg-gray-100 dark:bg-gray-900 justify-center">
-      <div className="absolute top-10 left-10 w-40 h-40 bg-blue-500 rounded-full blur-3xl opacity-30 z-0"></div>
-      <div className="absolute bottom-10 right-10 w-32 h-32 bg-purple-600 rounded-full blur-2xl opacity-30 z-0"></div>
-      <NavBar/>
-      <HeroSection/>
-      <About sectionId='about'/>
-      <Work sectionId='work'/>
-      <Projects sectionId='projects'/>
-      <Skills sectionId='skills'/>
-      <Education sectionId='education'/>
-      <Contact sectionId='contact'/>
+    <div className="relative min-h-screen bg-gray-100 dark:bg-gray-900 overflow-hidden">
+      <div className="absolute top-10 left-10 w-40 h-40 bg-blue-500 rounded-full blur-3xl opacity-30 z-[-1]"></div>
+      <div className="absolute bottom-10 right-10 w-32 h-32 bg-purple-600 rounded-full blur-2xl opacity-30 z-[-1]"></div>
+      
+      <NavBar />
+      <HeroSection />
+      <About sectionId='about' />
+      <Work sectionId='work' />
+      <Projects sectionId='projects' />
+      <Skills sectionId='skills' />
+      <Education sectionId='education' />
+      <Contact sectionId='contact' />
     </div>
-  )
+  );
 }
 
 export default App
