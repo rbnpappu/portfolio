@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   margin: 0;
   padding: 0;
-  top:0;
+  height: 100%;
+  /* Remove top: 0 unless positioning is used */
 }
