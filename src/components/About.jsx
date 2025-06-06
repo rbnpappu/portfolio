@@ -4,7 +4,7 @@ import Button from '@mui/material/Button'; // ✅ Ensure this is imported
 
 const About = ({sectionId}) => {
   return (
-    <section id={sectionId} className="relative flex flex-col bg-gray-100 dark:bg-gray-900 justify-center overflow-hidden py-10 px-4">
+    <section id={sectionId} className="relative flex flex-col bg-gray-900 justify-center overflow-hidden py-10 px-4">
       {/* Decorative Background Circles */}
       <div className="absolute top-10 left-10 w-40 h-40 bg-blue-500 rounded-full blur-3xl opacity-30 z-0"></div>
       <div className="absolute bottom-10 right-10 w-32 h-32 bg-purple-600 rounded-full blur-2xl opacity-30 z-0"></div>
